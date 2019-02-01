@@ -1,0 +1,23 @@
+/* Media Queries -------------------- */
+
+
+// How to Use CSS to Resize Your (Foreground) Images While Preserving Their Aspect Ratio
+// The simplest and most painless way to quickly get all your existing foreground pictures to fit a mobile screen is to resize them with CSS. This can easily be done with the following rules.
+
+// img {
+//     width: auto;
+//     max-width: 100%;
+//     height: auto;
+// }
+
+// How to Use Mobile Queries to Deliver Responsive Background Images
+
+// @media (max-width: 480px) {
+//     #picblock {
+//         background-image: url(mobile.png);
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//     }
+// }
+
+

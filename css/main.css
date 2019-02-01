@@ -1,0 +1,35 @@
+/* Mixins -------------------- */
+/* Base Styles -------------------- */
+Body {
+  background: #000;
+  padding-left: 0;
+  margin-left: 0; }
+
+nav ul {
+  list-style-type: none;
+  padding: 0.625rem;
+  margin: 0;
+  background-color: #add8e6;
+  overflow: hidden;
+  width: 100%;
+  position: fixed; }
+nav li {
+  display: inline;
+  float: left; }
+nav a {
+  text-decoration: none;
+  padding: 0.625rem;
+  font-size: 2.5rem; }
+nav li a:hover, nav .dropdown:hover .dropbtn {
+  background-color: #add8e6; }
+
+/* Web Fonts -------------------- */
+/* Media Queries -------------------- */
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "header header header"; }
+
+/*# sourceMappingURL=main.css.map */
