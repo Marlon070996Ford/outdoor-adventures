@@ -1,8 +1,3 @@
-.wrapper {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "header header header"; }
+
 
 /*# sourceMappingURL=layouts.css.map */

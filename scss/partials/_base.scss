@@ -1,58 +1,35 @@
 /* Base Styles -------------------- */
 
-
-Body{
-    background: #000;
-    padding-left: 0;
-    margin-left: 0;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
 }
 
-nav {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-      }
-      
-      li {
-        float: left;
-      }
-      
-      li a, .dropbtn {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      li a:hover, .dropdown:hover .dropbtn {
-        background-color: red;
-      }
-      
-      li.dropdown {
-        display: inline-block;
-      }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
+h1 {
+    font-family: 'Pacifico', cursive;
 }
+
+ul {
+    padding: 20px 20px 20px 0;
+    position: fixed;
+    background-color: rgba(65, 105, 225, 0);
+    height: 100%;   
+    margin-top: 0; 
+}
+
+
+li {
+    list-style: none;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;   
+    font-size: 30px; 
+}
+
 
 
 

@@ -1,35 +1,54 @@
 /* Mixins -------------------- */
 /* Base Styles -------------------- */
-Body {
-  background: #000;
-  padding-left: 0;
-  margin-left: 0; }
-
-nav ul {
-  list-style-type: none;
-  padding: 0.625rem;
+@import url("https://fonts.googleapis.com/css?family=Courgette|Pacifico");
+body {
   margin: 0;
-  background-color: #add8e6;
-  overflow: hidden;
-  width: 100%;
-  position: fixed; }
-nav li {
-  display: inline;
-  float: left; }
-nav a {
+  padding: 0;
+  background-color: royalblue; }
+
+h1 {
+  font-family: 'Pacifico', cursive; }
+
+ul {
+  padding: 20px 20px 20px 0;
+  position: fixed;
+  background-color: rgba(65, 105, 225, 0);
+  height: 100%;
+  margin-top: 0; }
+
+li {
+  list-style: none;
+  padding: 30px; }
+
+a {
   text-decoration: none;
-  padding: 0.625rem;
-  font-size: 2.5rem; }
-nav li a:hover, nav .dropdown:hover .dropbtn {
-  background-color: #add8e6; }
+  font-family: 'Pacifico', cursive;
+  font-size: 30px; }
 
 /* Web Fonts -------------------- */
+.main-header {
+  background-image: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  padding-top: 250px;
+  margin: 0 0 0 0; }
+.main-heading {
+  font-size: 50px;
+  color: royalblue;
+  letter-spacing: 5px;
+  text-shadow: 0 5px 4px black; }
+.main-title {
+  font-size: 30px;
+  color: royalblue;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 5px 4px black; }
+
+.item {
+  margin-left: 200px; }
+
 /* Media Queries -------------------- */
-.wrapper {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "header header header"; }
 
 /*# sourceMappingURL=main.css.map */

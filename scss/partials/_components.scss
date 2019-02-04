@@ -1,2 +1,37 @@
 /* Web Fonts -------------------- */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico');
+ 
+
+.main {
+    &-header {
+        background-image: url(/images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        padding-top: 250px;
+        margin: 0 0 0 0;
+        
+    }
+
+    &-heading {
+        font-size:50px;
+        color: royalblue;
+        letter-spacing: 5px;
+        text-shadow: 0 5px 4px black;
+    }
+
+    &-title {
+        font-size: 30px;
+        color: royalblue;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 0 5px 4px black;
+
+    }
+}
+
+.item {
+    margin-left: 200px;
+}
 
