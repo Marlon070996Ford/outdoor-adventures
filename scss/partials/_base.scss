@@ -8,15 +8,13 @@ body {
 
 h1 {
     font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 
 ul {
     padding: 20px 20px 20px 0;
-    position: fixed;
-    background-color: rgba(65, 105, 225, 0);
-    height: 100%;   
+    background-color: rgba(65, 105, 225, 0); 
     margin-top: 0;
-    color: rgb(68, 57, 136); 
 }
 
 
@@ -30,8 +28,14 @@ a {
     text-decoration: none;
     font-family: 'Pacifico', cursive;   
     font-size: 30px; 
+    color: rgb(255, 255, 255); 
 }
 
+form {
+    padding-left: 40%;
+    padding-top: 100px;
+}
 
-
-
+h2,h3 {
+    text-align: center;
+}

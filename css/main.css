@@ -7,15 +7,13 @@ body {
   background-color: royalblue; }
 
 h1 {
-  font-family: 'Pacifico', cursive; }
+  font-family: 'Pacifico', cursive;
+  text-align: center; }
 
 ul {
   padding: 20px 20px 20px 0;
-  position: fixed;
   background-color: rgba(65, 105, 225, 0);
-  height: 100%;
-  margin-top: 0;
-  color: #443988; }
+  margin-top: 0; }
 
 li {
   list-style: none;
@@ -25,17 +23,24 @@ li {
 a {
   text-decoration: none;
   font-family: 'Pacifico', cursive;
-  font-size: 30px; }
+  font-size: 30px;
+  color: white; }
+
+form {
+  padding-left: 40%;
+  padding-top: 100px; }
+
+h2, h3 {
+  text-align: center; }
 
 /* Web Fonts -------------------- */
 .main-header {
   background-image: url(/images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 100vh;
   width: 100%;
-  text-align: center;
-  padding-top: 250px; }
+  text-align: center; }
 .main-heading {
   font-size: 50px;
   color: royalblue;
@@ -49,7 +54,7 @@ a {
 
 .button {
   background-color: rgba(76, 175, 79, 0);
-  color: #443988;
+  color: white;
   padding: 20px 20px 20px 30px;
   font-size: 25px;
   border: none;
@@ -69,13 +74,13 @@ a {
   margin-left: 25px; }
 
 .dropdown-content a {
-  color: #463d81;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block; }
 
 .dropdown-content a:hover {
-  background-color: #fffffffb; }
+  background-color: #ffffff00; }
 
 .dropdown:hover .dropdown-content {
   display: block; }
@@ -86,7 +91,7 @@ a {
 /* Media Queries -------------------- */
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(8, 300px); }
 
@@ -94,5 +99,37 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.forest {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4; }
+
+.cape {
+  grid-column: span 2; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(6, 300px);
+  grid-template-areas: "hike hiking" "climb climbing" "camp camping" "canoe canoeing" "hunt hunting" "fish fishing"; }
+
+.hike {
+  grid-area: hike; }
+
+.climb {
+  grid-area: climb; }
+
+.hunt {
+  grid-area: hunt; }
+
+.fish {
+  grid-area: fish; }
+
+.camp {
+  grid-area: camp; }
+
+.canoe {
+  grid-area: canoe; }
 
 /*# sourceMappingURL=main.css.map */

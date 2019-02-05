@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(8, 300px); }
 
@@ -8,5 +8,37 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
+
+.forest {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4; }
+
+.cape {
+  grid-column: span 2; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(6, 300px);
+  grid-template-areas: "hike hiking" "climb climbing" "camp camping" "canoe canoeing" "hunt hunting" "fish fishing"; }
+
+.hike {
+  grid-area: hike; }
+
+.climb {
+  grid-area: climb; }
+
+.hunt {
+  grid-area: hunt; }
+
+.fish {
+  grid-area: fish; }
+
+.camp {
+  grid-area: camp; }
+
+.canoe {
+  grid-area: canoe; }
 
 /*# sourceMappingURL=layouts.css.map */
