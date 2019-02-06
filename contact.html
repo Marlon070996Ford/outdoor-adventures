@@ -8,23 +8,25 @@
     <title>Contact Form</title>
 </head>
 <body>
+    <div class="contact">
+        <h2 class="enquire">Enquire Us</h2>
+        <h3>Feel Free To Contact Us Here!</h3>
 
-    <h2>Enquire Us</h2>
-    <h3>Feel Free To Contact Us Here!</h3>
-
-        <form action="">
+        <form class="form">
 
             
-            <section><input name="name" value="First Name"></section>
+            <section><input name="name" placeholder="First name" required></section>
             <br>
 
-            <section><input name="name" value="Last Name"></section>
+            <section><input name="name" placeholder="Last name" required></section>
             <br>
 
-            <section><input type="email" name="email" value="youremail@gmail.com" required></section>
+            <section><input type="email" name="email" placeholder="youremail@gmail.com" required></section>
+
             <br>
 
             <select name="Activities">
+                    <option value="Activities">Activities</option>
                     <option value="hike">Hiking</option>
                     <option value="camp">Camping</option>
                     <option value="fish">Fishing</option>
@@ -32,16 +34,18 @@
                     <option value="climb">Climbing</option>
                     <option value="canoe">Canoeing</option>
             </select>
+
             <br>
             <br>
-            <textarea name="message" style="width:300px; height:200px;">
-                    The cat was playing in the garden.
-                    </textarea>
-                    <br>
-                    <br>
+
+            <textarea name="message" style="width:300px; height:200px;" placeholder="Your Message"></textarea>
+
+            <br>
+            <br>
 
                     <input type="button" value="submit">
-            
         </form>
+
+    </div>
 </body>
 </html>

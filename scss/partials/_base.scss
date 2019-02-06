@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: royalblue;
+    background-color: azure;
 }
 
 h1 {
@@ -24,18 +24,77 @@ li {
     display: inline;
 }
 
-a {
+li a {
     text-decoration: none;
     font-family: 'Pacifico', cursive;   
     font-size: 30px; 
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    text-shadow: 0 5px 4px azure;
 }
 
 form {
-    padding-left: 40%;
-    padding-top: 100px;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 h2,h3 {
-    text-align: center;
+    padding-left: 10%;
+    font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+}
+// placing my mxins for my contact page
+input {
+    @include example;
+}
+
+select {
+    @include example;   
+}
+
+// end of my contact mixin
+
+// styling my email input
+
+input[type=email] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=email]:focus {
+    width: 60%;
+}
+
+// end of my input styling 
+
+// start of my text area styling
+
+textarea {
+    @include textarea;
+}
+
+
+.pic1 {
+    height: 25rem;
+    width: 100%;
+    background-image: url(/images/Lions-Head-Hike-21-400x400.jpg);
+    background-size: 100% 100%;
+}
+
+.slide {
+    padding-top: 12rem;
+    transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.hike:hover .slide {
+    padding-left: 20rem;
+    transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 1;
 }

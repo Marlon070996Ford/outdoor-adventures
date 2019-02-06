@@ -1,5 +1,5 @@
 /* Web Fonts -------------------- */
-@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Charm');
  
 // styling my main head
 .main {
@@ -34,12 +34,13 @@
 // styling my nav dropdown
 .button {
     background-color: rgba(76, 175, 79, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 20px 20px 20px 30px;
-    font-size: 25px;
+    font-size: 30px;
     border: none;
     cursor: pointer;
     font-family: 'Pacifico', cursive;
+    text-shadow: 0 5px 4px azure;
   }
   
   .dropdown {
@@ -75,4 +76,19 @@
     background-color: #66d0eb00;
   }
 
-  
+//   end of my button
+
+//  styling my conact page
+.contact {
+    background-image: url(/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%
+}
+
+.enquire {
+    margin: 0;
+    padding-top: 2rem;
+}
+
+// end of my contact styling

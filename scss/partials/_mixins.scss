@@ -3,3 +3,16 @@
 
 /* Mixins -------------------- */
 
+@mixin example {
+    height: 40px;
+    width: 200px;
+    background-color: rgba(60, 188, 141, 0.555);
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    color: azure;
+}
+
+@mixin textarea {
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
