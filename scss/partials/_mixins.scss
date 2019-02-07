@@ -3,16 +3,36 @@
 
 /* Mixins -------------------- */
 
-@mixin example {
+@mixin select {
     height: 40px;
     width: 200px;
-    background-color: rgba(60, 188, 141, 0.555);
+    background-color: rgba(60, 188, 141, 0.000);
     font-size: 20px;
     font-family: 'Courgette', cursive;
-    color: azure;
+    color:black;
 }
 
 @mixin textarea {
+    background-color: transparent;
     border-radius: 4px;
     border: 2px solid #ccc;
+}
+
+@mixin contact {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "form icons";
+}
+
+@mixin form {
+    grid-area: form;
+}
+
+@mixin aside {
+    grid-area: icons;
+}
+
+@mixin cons {
+    font-size: 100px;
 }

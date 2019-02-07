@@ -1,5 +1,6 @@
 /* Web Fonts -------------------- */
-@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Charm');
+@import 'https://fonts.googleapis.com/css?family=Courgette|Pacifico|Charm';
+@import 'https://use.fontawesome.com/releases/v5.7.1/css/all.css';
  
 // styling my main head
 .main {
@@ -80,10 +81,10 @@
 
 //  styling my conact page
 .contact {
-    background-image: url(/images/bg1.jpg);
+    background-image: url(/images/clouds-dawn-desktop-backgrounds-46253.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%
+    height: 100%;
 }
 
 .enquire {
@@ -92,3 +93,88 @@
 }
 
 // end of my contact styling
+
+// styling my index images
+
+.pic1 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/Lions-head.jpg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.pic2 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/rock-climbing-cape-town2.jpg);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.pic3 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/campie.jpg);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.pic4 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/Hout-bay.jpg);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.pic5 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/hunting1.jpg);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.pic6 {
+  height: 25rem;
+  width: 100%;
+  background-image: url(/images/fishie2.png);
+  border-radius: 10px;
+  background-size: 100% 100%;
+}
+
+.slide {
+  padding-top: 12rem;
+  transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
+  opacity: 0;
+  font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.slide  a {
+  text-decoration: none;
+  color: azure;
+}
+.slide :hover {
+  text-shadow: 2px 3px royalblue;
+}
+
+.adventure:hover .slide {
+  padding-left: 15rem;
+  transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
+  opacity: 1;
+}
+// end of my index styling
+
+// icons styling
+
+.con {
+  @include cons;
+}
+
+.move {
+  padding-left: 25%;
+  padding-top: 50%;
+}

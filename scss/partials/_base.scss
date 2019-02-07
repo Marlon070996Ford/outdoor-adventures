@@ -39,7 +39,6 @@ form {
 }
 
 h2,h3 {
-    padding-left: 10%;
     font-family: 'Courgette', cursive;
 }
 
@@ -48,12 +47,14 @@ p {
 }
 // placing my mxins for my contact page
 input {
-    @include example;
+    @include select;
 }
 
 select {
-    @include example;   
+    @include select;   
 }
+
+
 
 // end of my contact mixin
 
@@ -75,26 +76,8 @@ input[type=email]:focus {
 textarea {
     @include textarea;
 }
+// end of my textarea styling
 
-
-.pic1 {
-    height: 25rem;
-    width: 100%;
-    background-image: url(/images/Lions-Head-Hike-21-400x400.jpg);
-    background-size: 100% 100%;
-}
-
-.slide {
-    padding-top: 12rem;
-    transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
-    opacity: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1.3rem;
-}
-
-.hike:hover .slide {
-    padding-left: 20rem;
-    transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
-    opacity: 1;
+span {
+    font-family: 'Pacifico', cursive;
 }
