@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Courgette|Pacifico|Charm";
 @import "https://use.fontawesome.com/releases/v5.7.1/css/all.css";
 .main-header {
-  background: url(/images/bg.jpg);
+  background: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
