@@ -3,12 +3,13 @@
 // Global Imports
 // ==========================================================================
 
-@import 'partials/variables',
-        'partials/mixins',
-        'partials/base',
+@import 'partials/mixins',
+        'partials/variables',
         'partials/components',
-        'partials/responsive',
-        'partials/layouts.scss';
+        'partials/base',
+        'partials/layouts.scss',
+        'partials/responsive';
+        
 
 
 
