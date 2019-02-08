@@ -224,7 +224,7 @@ span {
 
 .container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-template-columns: repeat(6, 1fr);
   width: 100%; }
 
@@ -277,12 +277,6 @@ img {
   grid-area: canoe;
   margin: 10px; }
 
-.contact {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "form icons"; }
-
 /* Media Queries -------------------- */
 @media only screen and (max-width: 768px) {
   .adventure:hover .slide {
@@ -305,7 +299,7 @@ img {
 @media only screen and (max-width: 375px) {
   .wrapper {
     display: block;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: 1fr;
     width: 100%; } }
 
