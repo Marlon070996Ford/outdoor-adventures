@@ -5,7 +5,7 @@
 // styling my main head
 .main {
     &-header {
-        background-image: url(/images/bg.jpg);
+        background: url(/images/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -81,7 +81,7 @@
 
 //  styling my conact page
 .contact {
-    background-image: url(../images/clouds-dawn-desktop-backgrounds-46253.jpg);
+    background: url(../images/clouds-dawn-desktop-backgrounds-46253.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;

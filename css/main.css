@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Courgette|Pacifico|Charm";
 @import "https://use.fontawesome.com/releases/v5.7.1/css/all.css";
 .main-header {
-  background-image: url(/images/bg.jpg);
+  background: url(/images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -58,7 +58,7 @@
   background-color: #66d0eb00; }
 
 .contact {
-  background-image: url(../images/clouds-dawn-desktop-backgrounds-46253.jpg);
+  background: url(../images/clouds-dawn-desktop-backgrounds-46253.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }
