@@ -9,13 +9,15 @@
     background-color: rgba(60, 188, 141, 0.000);
     font-size: 20px;
     font-family: 'Courgette', cursive;
-    color:black;
+    color: azure;
+    border-radius: 10px;
 }
 
 @mixin textarea {
     background-color: transparent;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 2px solid #ccc;
+    color: azure;
 }
 
 @mixin contact {
@@ -34,5 +36,7 @@
 }
 
 @mixin cons {
-    font-size: 100px;
+    font-size: 40px;
+    padding: 10px;
+    color: aqua;
 }

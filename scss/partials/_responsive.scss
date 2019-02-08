@@ -21,3 +21,38 @@
 // }
 
 
+@media only screen and (max-width: 768px) {
+    .adventure:hover .slide {
+        transition: none;
+        opacity: 1;
+        padding-left: 0;
+        
+      }
+
+      .slide {
+        transition: none;
+        opacity: 1;
+        font-family: 'Courgette', cursive;
+        font-size: auto;
+        text-align: center;
+      }
+
+// contact form responsiveness
+      .contact {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "form";
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        display: block;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        width: 100%
+                             
+                             
+    }
+}

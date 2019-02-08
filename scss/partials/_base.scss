@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Courgette', cursive;
     text-align: center;
 }
 
@@ -26,10 +26,10 @@ li {
 
 li a {
     text-decoration: none;
-    font-family: 'Pacifico', cursive;   
+    font-family: 'Courgette', cursive;   
     font-size: 30px; 
-    color: rgb(0, 0, 0); 
-    text-shadow: 0 5px 4px azure;
+    color: azure; 
+    text-shadow: 0 2px 3px black;
 }
 
 form {
@@ -40,6 +40,8 @@ form {
 
 h2,h3 {
     font-family: 'Courgette', cursive;
+    color: azure;
+    text-shadow: 0 5px 4px black;
 }
 
 p {
@@ -54,6 +56,15 @@ select {
     @include select;   
 }
 
+// select[name="activity"] {
+//     color: black;
+//     background-color: tomato;
+// }
+
+option {
+    color:azure;
+    background-color: tomato;
+}
 
 
 // end of my contact mixin

@@ -2,14 +2,12 @@
 .container {
     display: grid;
     grid-gap: 10px;
-    margin: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 300px);
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;  
 }
 img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
     border-radius: 0.625rem;
 }
 
@@ -21,6 +19,16 @@ img {
 .cape {
     grid-column: span 2;
 }
+
+.camping {
+    grid-column: span 2;
+    grid-row: span 2;   
+}
+
+.rocks {
+    grid-column: span 1;
+}
+
 // end of my gallery styling
 
 // grid for my homepage content
@@ -65,5 +73,8 @@ img {
 }
 
 .contact {
-    @include contact;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "form icons";
 }

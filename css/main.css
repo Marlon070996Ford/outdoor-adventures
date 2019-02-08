@@ -11,22 +11,22 @@
   font-size: 50px;
   color: royalblue;
   letter-spacing: 5px;
-  text-shadow: 0 5px 4px black; }
+  text-shadow: 0 2px 3px black; }
 .main-title {
   font-size: 30px;
   color: royalblue;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 0 5px 4px black; }
+  font-family: 'Courgette', cursive;
+  text-shadow: 0 2px 3px black; }
 
 .button {
   background-color: rgba(76, 175, 79, 0);
-  color: black;
+  color: azure;
   padding: 20px 20px 20px 30px;
   font-size: 30px;
   border: none;
   cursor: pointer;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 0 5px 4px azure; }
+  font-family: 'Courgette', cursive;
+  text-shadow: 0 2px 3px black; }
 
 .dropdown {
   position: relative;
@@ -41,10 +41,11 @@
   margin-left: 25px; }
 
 .dropdown-content a {
-  color: white;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block; }
+  display: block;
+  font-family: 'Courgette', cursive; }
 
 .dropdown-content a:hover {
   background-color: #ffffff00; }
@@ -56,7 +57,7 @@
   background-color: #66d0eb00; }
 
 .contact {
-  background: url(../images/clouds-dawn-desktop-backgrounds-46253.jpg);
+  background: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }
@@ -66,7 +67,7 @@
   padding-top: 2rem; }
 
 .pic1 {
-  height: auto;
+  height: 25rem;
   width: 100%;
   background: url(../images/Lions-head.jpg);
   background-size: 100% 100%;
@@ -75,7 +76,7 @@
 .pic2 {
   height: 25rem;
   width: 100%;
-  background: url(../images/Hout-bay.jpg);
+  background: url(../images/devils-peak.jpg);
   border-radius: 10px;
   background-size: 100% 100%; }
 
@@ -128,11 +129,20 @@
   opacity: 1; }
 
 .con {
-  font-size: 100px; }
+  font-size: 40px;
+  padding: 10px;
+  color: aqua; }
 
 .move {
   padding-left: 25%;
   padding-top: 50%; }
+
+.color {
+  color: azure;
+  font-family: 'Courgette', cursive; }
+
+.gall {
+  margin: 5px; }
 
 /* Base Styles -------------------- */
 body {
@@ -141,7 +151,7 @@ body {
   background-color: azure; }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Courgette', cursive;
   text-align: center; }
 
 ul {
@@ -156,10 +166,10 @@ li {
 
 li a {
   text-decoration: none;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 30px;
-  color: black;
-  text-shadow: 0 5px 4px azure; }
+  color: azure;
+  text-shadow: 0 2px 3px black; }
 
 form {
   padding-left: 10%;
@@ -167,7 +177,9 @@ form {
   padding-bottom: 50px; }
 
 h2, h3 {
-  font-family: 'Courgette', cursive; }
+  font-family: 'Courgette', cursive;
+  color: azure;
+  text-shadow: 0 5px 4px black; }
 
 p {
   font-family: 'Courgette', cursive; }
@@ -178,7 +190,8 @@ input {
   background-color: rgba(60, 188, 141, 0);
   font-size: 20px;
   font-family: 'Courgette', cursive;
-  color: black; }
+  color: azure;
+  border-radius: 10px; }
 
 select {
   height: 40px;
@@ -186,7 +199,12 @@ select {
   background-color: rgba(60, 188, 141, 0);
   font-size: 20px;
   font-family: 'Courgette', cursive;
-  color: black; }
+  color: azure;
+  border-radius: 10px; }
+
+option {
+  color: azure;
+  background-color: tomato; }
 
 input[type=email] {
   -webkit-transition: width 0.4s ease-in-out;
@@ -197,8 +215,9 @@ input[type=email]:focus {
 
 textarea {
   background-color: transparent;
-  border-radius: 4px;
-  border: 2px solid #ccc; }
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  color: azure; }
 
 span {
   font-family: 'Pacifico', cursive; }
@@ -206,14 +225,12 @@ span {
 .container {
   display: grid;
   grid-gap: 10px;
-  margin: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 300px); }
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%; }
 
 img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
   border-radius: 0.625rem; }
 
 .forest {
@@ -222,6 +239,13 @@ img {
 
 .cape {
   grid-column: span 2; }
+
+.camping {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+.rocks {
+  grid-column: span 1; }
 
 .wrapper {
   display: grid;
@@ -260,5 +284,29 @@ img {
   grid-template-areas: "form icons"; }
 
 /* Media Queries -------------------- */
+@media only screen and (max-width: 768px) {
+  .adventure:hover .slide {
+    transition: none;
+    opacity: 1;
+    padding-left: 0; }
+
+  .slide {
+    transition: none;
+    opacity: 1;
+    font-family: 'Courgette', cursive;
+    font-size: auto;
+    text-align: center; }
+
+  .contact {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "form"; } }
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    display: block;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
