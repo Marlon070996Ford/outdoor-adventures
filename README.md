@@ -58,6 +58,21 @@ Tools:
 - Worked on creating partials
 - Created my pages 
 
+2019-02-11 
+
+- Worked On My Home Page
+- Worked On My Full Site
+- Added my content
+
+
+2019-02-12 / 2019-02-15
+
+- Worked On My Home Page
+- Worked On My Full Site
+- Finished My Site
+
+
+
 ## Contributors
 
 Marly Marl
