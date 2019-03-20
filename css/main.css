@@ -141,11 +141,14 @@
   color: azure;
   font-family: 'Courgette', cursive; }
 
-.gall {
+.gallery {
   margin: 5px; }
 
 .hr-line {
   border-style: dotted; }
+
+.footer-icons {
+  text-align: center; }
 
 /* Base Styles -------------------- */
 body {
@@ -301,6 +304,11 @@ img {
 
 .fishing-picture {
   grid-area: img; }
+
+.footer-grid {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 1fr; }
 
 /* Media Queries -------------------- */
 @media only screen and (max-width: 768px) {

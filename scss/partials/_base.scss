@@ -86,17 +86,18 @@ input[type=email]:focus {
 
 // end of my input styling 
 
-// start of my text area styling
+// ===###=== start of my text area styling ===###===
 
 textarea {
     @include textarea;
 }
-// end of my textarea styling
+// ===###=== end of my textarea styling ===###===
 
 span {
     font-family: 'Pacifico', cursive;
 }
 
+// ===###=== my footer styling part ===###===
 footer {
     height: 2%;
     background-color:royalblue;

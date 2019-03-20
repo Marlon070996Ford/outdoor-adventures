@@ -57,7 +57,7 @@ img {
     grid-area: img;
 }
 
-// ===###=== my     section ===###===
+// ===###=== my canoe section on my home page  ===###===
 
 .canoe {
     display: grid;
@@ -76,7 +76,7 @@ img {
 }
 
 
-// ===###=== my   section ===###===
+// ===###=== my fishing section ===###===
 .fish {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -93,3 +93,10 @@ img {
     grid-area: img;
 }
 
+// ===###=== end of my content on home page grids ===###===
+
+.footer-grid {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr;
+}
