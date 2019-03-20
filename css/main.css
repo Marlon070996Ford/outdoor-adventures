@@ -87,21 +87,21 @@
   border-radius: 10px;
   background-size: 100% 100%; }
 
-.pic4 {
+.canoeing-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/Hout-bay.jpg);
   border-radius: 10px;
   background-size: 100% 100%; }
 
-.pic5 {
+.hunting-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/hunting1.jpg);
   border-radius: 10px;
   background-size: 100% 100%; }
 
-.pic6 {
+.fishing-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/fishie2.png);
@@ -109,7 +109,7 @@
   background-size: 100% 100%; }
 
 .slide {
-  padding-top: 12rem;
+  padding-top: 10rem;
   transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
   opacity: 0;
   font-family: 'Courgette', cursive;
@@ -124,7 +124,7 @@
   text-shadow: 2px 3px royalblue; }
 
 .adventure:hover .slide {
-  padding-left: 15rem;
+  padding-left: 14rem;
   transition: padding-left 0.5s ease-out, opacity 0.5s ease-out;
   opacity: 1; }
 
@@ -176,6 +176,9 @@ form {
   padding-top: 20px;
   padding-bottom: 50px; }
 
+h1 {
+  color: royalblue; }
+
 h2, h3 {
   font-family: 'Courgette', cursive;
   color: azure;
@@ -222,6 +225,10 @@ textarea {
 span {
   font-family: 'Pacifico', cursive; }
 
+footer {
+  height: 2%;
+  background-color: royalblue; }
+
 .container {
   display: grid;
   grid-gap: 5px;
@@ -247,29 +254,11 @@ img {
 .rocks {
   grid-column: span 1; }
 
-.hike {
-  grid-area: hike;
-  margin: 10px; }
-
-.climb {
-  grid-area: climb;
-  margin: 10px; }
-
-.hunt {
-  grid-area: hunt;
-  margin: 10px; }
-
-.fish {
-  grid-area: fish;
-  margin: 10px; }
-
-.camp {
-  grid-area: camp;
-  margin: 10px; }
-
-.canoe {
-  grid-area: canoe;
-  margin: 10px; }
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%; }
 
 /* Media Queries -------------------- */
 @media only screen and (max-width: 768px) {

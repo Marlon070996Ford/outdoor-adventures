@@ -23,28 +23,10 @@ img {
 .rocks {
   grid-column: span 1; }
 
-.hike {
-  grid-area: hike;
-  margin: 10px; }
-
-.climb {
-  grid-area: climb;
-  margin: 10px; }
-
-.hunt {
-  grid-area: hunt;
-  margin: 10px; }
-
-.fish {
-  grid-area: fish;
-  margin: 10px; }
-
-.camp {
-  grid-area: camp;
-  margin: 10px; }
-
-.canoe {
-  grid-area: canoe;
-  margin: 10px; }
+.adventure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%; }
 
 /*# sourceMappingURL=layouts.css.map */

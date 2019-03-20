@@ -38,6 +38,10 @@ form {
     padding-bottom: 50px;
 }
 
+h1{
+    color: royalblue;
+}
+
 h2,h3 {
     font-family: 'Courgette', cursive;
     color: azure;
@@ -47,7 +51,7 @@ h2,h3 {
 p {
     font-family: 'Courgette', cursive;
 }
-// placing my mxins for my contact page
+// placing my mixins for my contact page
 input {
     @include select;
 }
@@ -91,4 +95,9 @@ textarea {
 
 span {
     font-family: 'Pacifico', cursive;
+}
+
+footer {
+    height: 2%;
+    background-color:royalblue;
 }
