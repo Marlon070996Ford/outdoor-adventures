@@ -24,18 +24,20 @@
 
 Technologies and Tools Used:
 
+- w3schools
+- youtube videos
+
 ```
 Languages:
 
 - HTML
 - CSS
-- SASS
-- Ruby
 
 ```
 ```
 Tools:
 
+- Sass
 - VS Code
 - GitBash
 - Github
@@ -49,6 +51,12 @@ Tools:
 - Base folders added
 - Readme Created
 - Live Link Created
+
+2019-02-09:
+
+- Worked on my layouts 
+- Worked on creating partials
+- Created my pages 
 
 ## Contributors
 

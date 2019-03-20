@@ -33,14 +33,14 @@ img {
 
 // grid for my homepage content
 
-.wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "hike climb"
-                         "hunt fish"
-                         "camp canoe"
-}
+// .wrapper {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: "hike climb"
+//                          "hunt fish"
+//                          "camp canoe"
+// }
 
 .hike {
     grid-area: hike;

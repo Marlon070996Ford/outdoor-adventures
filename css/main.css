@@ -66,21 +66,21 @@
   margin: 0;
   padding-top: 2rem; }
 
-.pic1 {
+.hiking-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/Lions-head.jpg);
   background-size: 100% 100%;
   border-radius: 10px; }
 
-.pic2 {
+.climbing-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/devils-peak.jpg);
   border-radius: 10px;
   background-size: 100% 100%; }
 
-.pic3 {
+.camping-picture {
   height: 25rem;
   width: 100%;
   background: url(../images/campie.jpg);
@@ -247,12 +247,6 @@ img {
 .rocks {
   grid-column: span 1; }
 
-.wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hike climb" "hunt fish" "camp canoe"; }
-
 .hike {
   grid-area: hike;
   margin: 10px; }
@@ -296,11 +290,15 @@ img {
     grid-gap: 10px;
     grid-template-columns: 1fr;
     grid-template-areas: "form"; } }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .wrapper {
     display: block;
     grid-gap: 10px;
     grid-template-columns: 1fr;
+    width: 100%; }
+
+  .container {
+    display: block;
     width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

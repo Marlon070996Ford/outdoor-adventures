@@ -23,12 +23,6 @@ img {
 .rocks {
   grid-column: span 1; }
 
-.wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hike climb" "hunt fish" "camp canoe"; }
-
 .hike {
   grid-area: hike;
   margin: 10px; }
