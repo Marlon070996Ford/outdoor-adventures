@@ -31,6 +31,7 @@ img {
 
 // ===###=== end of my gallery styling ===###===
 
+// my grid styling and positions on homepage
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,6 +39,57 @@ img {
     grid-gap: 2%;
 }
 
+// ===###=== my  climb  section on homepage ===###===
+
+.climb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    grid-gap: 2%;
+    grid-template-areas: "img text";
+}
+
+.climbing-text {
+    grid-area: text;
+}
+
+.climbing-picture {
+    grid-area: img;
+}
+
+// ===###=== my     section ===###===
+
+.canoe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    grid-gap: 2%;
+    grid-template-areas: "img text"
+}
+
+.canoe-text {
+    grid-area: text;
+}
+
+.canoeing-picture {
+    grid-area: img;
+}
 
 
+// ===###=== my   section ===###===
+.fish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    grid-gap: 2%;
+    grid-template-areas: "img text"
+}
+
+.fishing-text {
+    grid-area: text;
+}
+
+.fishing-picture {
+    grid-area: img;
+}
 

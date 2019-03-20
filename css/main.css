@@ -144,6 +144,9 @@
 .gall {
   margin: 5px; }
 
+.hr-line {
+  border-style: dotted; }
+
 /* Base Styles -------------------- */
 body {
   margin: 0;
@@ -260,6 +263,45 @@ img {
   margin: 10px;
   grid-gap: 2%; }
 
+.climb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.climbing-text {
+  grid-area: text; }
+
+.climbing-picture {
+  grid-area: img; }
+
+.canoe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.canoe-text {
+  grid-area: text; }
+
+.canoeing-picture {
+  grid-area: img; }
+
+.fish {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.fishing-text {
+  grid-area: text; }
+
+.fishing-picture {
+  grid-area: img; }
+
 /* Media Queries -------------------- */
 @media only screen and (max-width: 768px) {
   .adventure:hover .slide {
@@ -288,6 +330,10 @@ img {
 
   .container {
     display: block;
-    width: 100%; } }
+    width: 100%; }
+
+  .adventure {
+    display: block;
+    margin: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

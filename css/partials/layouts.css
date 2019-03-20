@@ -29,4 +29,43 @@ img {
   margin: 10px;
   grid-gap: 2%; }
 
+.climb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.climbing-text {
+  grid-area: text; }
+
+.climbing-picture {
+  grid-area: img; }
+
+.canoe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.canoe-text {
+  grid-area: text; }
+
+.canoeing-picture {
+  grid-area: img; }
+
+.fish {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  grid-gap: 2%;
+  grid-template-areas: "img text"; }
+
+.fishing-text {
+  grid-area: text; }
+
+.fishing-picture {
+  grid-area: img; }
+
 /*# sourceMappingURL=layouts.css.map */
